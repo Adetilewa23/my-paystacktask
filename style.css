@@ -1,0 +1,275 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+   font-family: 'Inter', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+}
+.site-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #006AE3;
+}
+.nav a {
+  margin-left: 20px;
+  font-size: 0.95rem;
+  color: #333;
+}
+.nav .btn.small {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+
+
+
+.hero {
+  padding: 120px 20px 60px;
+  text-align: left;
+  max-width: 700PX;
+  
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #4f4f4f;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-green {
+  background: #3bb75e;
+  color: #fff;
+  padding: 14px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  background: #2e9c4c;
+}
+
+.contact-link {
+  color: #3bb75e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+
+.trusted {
+  text-align: left;
+  padding: 40px 20px 80px;
+}
+
+.trusted-title {
+  font-size: 1rem;
+  color: #4f4f4f;
+  margin-bottom: 30px;
+}
+
+.trusted-logos {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.trusted-logos img {
+  height: 40px;
+  max-width: 120px;
+  object-fit: contain;
+  filter: grayscale(100%);
+}
+
+.section2-wrapper {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #1c1c1c;
+}
+
+.section2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 40px;
+}
+
+.section2-left {
+  max-width: 45%;
+}
+
+.section2-left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section2-left p {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.section2-right {
+  max-width: 45%;
+  padding-top: 250px;
+}
+
+.section2-right h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  
+  
+}
+
+.section2-right p {
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+
+
+.section2-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  padding: 0px 200px 200px 20px;
+  
+}
+
+.section2-features-left img {
+  width: 300px;
+  max-width: 100%;
+}
+
+.section2-features-right {
+  display: flex;
+  gap: 60px;
+}
+
+.section2-features-right ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+  line-height: 2;
+}
+
+
+.section2-success {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.section2-success-left img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.section2-success-right {
+  max-width: 55%;
+}
+
+.section2-success-right h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section2-success-right p {
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.section2-link {
+  color: #00b87c;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.section2-link span {
+  margin-right: 8px;
+}
+
+
+.footer {
+  background: #f9fafc;
+  padding: 50px 20px;
+   line-height: 1.6;
+   font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 0.95rem;
+}
+
+.footer-column ul li a:hover {
+  color: #006AE3;
+}
